@@ -99,11 +99,11 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: 
           date_end: ''
           date_start: '2016-10-26'
           description: ''
-          icon: coursera
+          icon: org-uh
           organization: University of Herfortshire
           organization_url: https://herts.ac.uk
           title: University Prize - Outstanding Perfomance
