@@ -6,7 +6,7 @@ title: Ryan J Field
 #name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Ryan
+first_name: Ryan J
 last_name: Field
 
 # Status emoji
