@@ -148,7 +148,7 @@ social:
     link: '/#contact'
   - icon: x-twitter
     icon_pack: fab
-    link: https://twitter.com/RyanJField
+    link: https://twitter.com/Ryan_J_Field
     label: Follow me on Twitter
     display:
       header: true
