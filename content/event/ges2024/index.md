@@ -3,7 +3,7 @@
 
 title: "Global Evidence Summit (GES) 2024 Walkthrough: MetaDTA and MetaBayesDTA: interactive web applications to conduct meta-analysis of diagnostic test accuracy studies"
 event: "Global Evidence Summit (GES)"
-event_url: "https://virtual.oxfordabstracts.com/#/event/3101/submission/113"
+event_url: ""
 location:
 address:
   street:
