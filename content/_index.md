@@ -62,13 +62,24 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Research Software Engineer
+          company: University of Glasgow
+          company_url: 'https://www.gla.ac.uk'
+          company_logo: org-uofg
+          location: Glasgow
+          date_start: '2024-11-01'
+          date_end: ''
+          description: |2-
+              * Working as part of Research Software Engineering Team
+              * Developing FAIR and open source software
+              * Working using agile software engineering techniques
         - title: Research Associate
           company: University of Glasgow
           company_url: 'https://www.gla.ac.uk'
           company_logo: org-uofg
           location: Glasgow
           date_start: '2023-03-05'
-          date_end: ''
+          date_end: '2024-10-31'
           description: |2-
               * Working on Large NIHR funded projects, to aid in evidence synthesis.
               * Development of web applications using R Shiny to aid in advance evidence synthesis techniques.
@@ -234,9 +245,9 @@ sections:
       #phone: 888 888 88 88
       #appointment_url: 'https://calendly.com'
       address:
-        street: Clarice Pears Building, 90 Byres Rd
+        street: MVLS Shared Research Facilities, B3.08, Joseph Black Building
         city: Glasgow
-        postcode: 'G12 8TB'
+        postcode: 'G12 8QQ'
         country: Scotland
         country_code: UK
       directions: Enter Building and Report to Reception
@@ -244,8 +255,8 @@ sections:
         - 'Monday to Friday 09:00 to 17:00'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '55.8724423'
-        longitude: '-4.2981671'  
+        latitude: '55.872157'
+        longitude: '-4.292951'  
       #contact_links:
       #  - icon: x-twitter
       #    icon_pack: fab

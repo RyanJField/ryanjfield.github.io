@@ -14,4 +14,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.5338588
 - name: GitHub
   url: https://github.com/FAIRDataPipeline/rDataPipeline
+- name: CRAN
+  url: https://cran.r-project.org/package=rDataPipeline
 ---

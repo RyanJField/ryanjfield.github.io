@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Research Associate
+role: Research Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.gla.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include research software engineering, public health, AI and Machine Learning.
 
 # Interests to show in About widget
 interests:
@@ -154,7 +154,7 @@ social:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://www.gla.ac.uk/schools/healthwellbeing/staff/ryanfield/
+    link: https://www.gla.ac.uk/stafflist/search/person/4edeece28292/
   - icon: github
     icon_pack: fab
     link: https://github.com/RyanJField
@@ -175,7 +175,7 @@ social:
 highlight_name: true
 ---
 
-A research associate at the University of Glasgow, with a background in computer science, software engineering and
-public health, and a focus on FAIR and reproducible data. With interests in data analysis, evidence synthesis, web
+A research software engineer at the University of Glasgow, with a background in computer science, software engineering and
+public health, and a focus on FAIR and reproducible data. With interests in research software, data analysis, evidence synthesis, web
 application development and statistical analysis.
 {style="text-align: justify;"}
