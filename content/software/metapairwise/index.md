@@ -17,4 +17,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.10805081
 - name: GitHub
   url: https://github.com/CRSU-Apps/MetaPairwise
+- name: Web Application
+  url: https://crsu.shinyapps.io/MetaPairwise/
 ---

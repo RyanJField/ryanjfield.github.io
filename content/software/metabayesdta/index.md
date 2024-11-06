@@ -21,4 +21,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.8371997
 - name: GitHub
   url: https://github.com/CRSU-Apps/MetaBayesDTA/
+- name: Web Application
+  url: https://crsu.shinyapps.io/MetaBayesDTA/
 ---

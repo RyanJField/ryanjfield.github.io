@@ -17,4 +17,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.5548002
 - name: GitHub
   url: https://github.com/FAIRDataPipeline/pyDataPipeline
+- name: PyPi
+  url: https://pypi.org/project/data_pipeline_api/
 ---

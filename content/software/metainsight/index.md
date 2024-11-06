@@ -21,4 +21,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.7852691
 - name: GitHub
   url: https://github.com/CRSU-Apps/MetaInsight/
+- name: Web Application
+  url: https://crsu.shinyapps.io/MetaInsight/
 ---
