@@ -18,4 +18,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.5552779
 - name: GitHub
   url: https://github.com/FAIRDataPipeline/FAIR-CLI/
+- name: PyPi
+  url: https://pypi.org/project/fair-cli/
 ---

@@ -20,4 +20,6 @@ links:
   url: https://zenodo.org/doi/10.5281/zenodo.10497777
 - name: GitHub
   url: https://github.com/CRSU-Apps/MetaDTA/
+- name: Web Application
+  url: https://crsu.shinyapps.io/MetaDTA/
 ---
