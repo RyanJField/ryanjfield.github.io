@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Global Evidence Summit (GES) 2024 Walkthrough: MetaDTA and MetaBayesDTA: interactive web applications to conduct meta-analysis of diagnostic test accuracy studies"
+title: "Global Evidence Summit (GES) 2024 Workshop: MetaDTA and MetaBayesDTA: interactive web applications to conduct meta-analysis of diagnostic test accuracy studies"
 event: "Global Evidence Summit (GES)"
 event_url: ""
 location:
@@ -11,7 +11,7 @@ address:
   region:
   postcode:
   country:
-summary: "Walkthrough"
+summary: "Workshop"
 abstract: " Background: Diagnostic tests form an essential part of current medical practices aiming to distinguish between patients with the disease and healthy individuals. They are used across a diverse range of healthcare settings and are often a prerequisite to identifying treatment options and enabling access to services. Recommended statistical methods for meta-analysis of diagnostic test accuracy (DTA) studies require the fitting of complex nonstandard statistical models, which can be a barrier to their application. MetaDTA (https://crsu.shinyapps.io/MetaDTA/) is a free interactive online application that meta-analyzes DTA studies using the bivariate model, plots the summary receiver operating characteristic (SROC) curve, encourages sensitivity analysis, and incorporates quality assessment results from the QUADAS-2 tool. MetaBayesDTA (https://crsu.shinyapps.io/MetaBayesDTA/) is a version that extends the functionality to allow for imperfect gold standards, subgroup analysis, meta-regression, and comparative test accuracy evaluation. Both apps produce visualizations that facilitate the communication of results to all stakeholders, including patients and healthcare professionals. Due to the rich feature set and user-friendly “point and click” interface of these apps, this workshop should appeal to a wide audience, including non–statistical experts. Objectives: To illustrate how MetaDTA and MetaBayesDTA can be used to conduct DTA meta-analyses (using methods recommended in Version 2 of the Cochrane Handbook) and for participants to get hands-on experience of using the apps in a structured and supportive environment Description: This workshop will • demonstrate how MetaDTA and MetaBayesDTA can be used to conduct a Cochrane DTA meta-analysis using an example from a Cochrane review and • demonstrate the wide array of interactive functions available within MetaDTA and MetaBayesDTA. Interaction plans: During this workshop, we will • provide participants with a data set and worksheet designed to guide them, at their own pace, through the stages of conducting an analysis in MetaDTA and MetaBayesDTA and • provide time for questions, discussion, and feedback. Topics covered will include loading data, customizing SROC plots, obtaining statistics, visualizing study quality results and covariate effects, conducting sensitivity analyses, and exporting tables and figures. All participants must bring a laptop or tablet or may share with another participant. "
 
 # Talk start and end times.
