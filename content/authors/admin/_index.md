@@ -150,6 +150,12 @@ social:
     icon_pack: fab
     link: https://twitter.com/Ryan_J_Field
     label: Follow me on Twitter
+    #display:
+    #  header: true
+  - icon: bluesky
+    icon_pack: fab
+    link: https://bsky.app/profile/ryanjfield.bsky.social
+    label: Follow me on Bluesky
     display:
       header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
