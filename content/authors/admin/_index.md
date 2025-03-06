@@ -154,7 +154,7 @@ social:
     #  header: true
   - icon: bluesky
     icon_pack: fab
-    link: https://bsky.app/profile/ryanjfield.bsky.social
+    link: https://bsky.app/profile/ryanfield.me
     label: Follow me on Bluesky
     display:
       header: true
