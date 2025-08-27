@@ -2,12 +2,16 @@
 # Display name
 title: Ryan J Field
 
-# Name pronunciation (optional)
-#name_pronunciation: Chien Shiung Wu
-
 # Full name (for SEO)
 first_name: Ryan J
 last_name: Field
+title: DR
+
+# Name pronunciation (optional)
+#name_pronunciation: Chien Shiung Wu
+
+# Pronouns (optional)
+pronouns: he/him
 
 # Status emoji
 status:
@@ -185,3 +189,4 @@ A research software engineer at the University of Glasgow, with a background in 
 public health, and a focus on FAIR and reproducible data. With interests in research software, data analysis, evidence synthesis, web
 application development and statistical analysis.
 {style="text-align: justify;"}
+
