@@ -2,13 +2,12 @@
 # Display name
 title: Ryan J Field
 
+# Name pronunciation (optional)
+# name_pronunciation: Chien Shiung Wu
+
 # Full name (for SEO)
 first_name: Ryan J
 last_name: Field
-title: DR
-
-# Name pronunciation (optional)
-#name_pronunciation: Chien Shiung Wu
 
 # Pronouns (optional)
 pronouns: he/him
@@ -20,18 +19,41 @@ status:
 # Is this the primary user of the site?
 superuser: true
 
+# Highlight the author in author lists? (true/false)
+highlight_name: true
+
 # Role/position/tagline
 role: Research Software Engineer
 
-# Organizations/Affiliations to show in About widget
+# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: University of Glasgow
     url: https://www.gla.ac.uk/
 
-# Short bio (displayed in user profile at end of posts)
-bio: My research interests include research software engineering, public health, AI and Machine Learning.
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+profiles:
+  - icon: envelope
+    link: '/#contact'
+  - icon: brands/x
+    link: https://twitter.com/Ryan_J_Field
+    label: Follow me on Twitter
+  - icon: brands/bluesky
+    link: https://bsky.app/profile/ryanfield.me
+    label: Follow me on Bluesky
+    display:
+      header: true
+  - icon: hero/academic-cap
+    link: https://www.gla.ac.uk/stafflist/search/person/4edeece28292/
+  - icon: brands/github
+    link: https://github.com/RyanJField
+  - icon: brands/linkedin
+    link: https://www.linkedin.com/in/ryan-field
+  - icon: brands/orcid
+    link: https://orcid.org/0000-0002-4424-9890
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/
 
-# Interests to show in About widget
 interests:
   - Evidence Synthesis
   - Software Engineering
@@ -42,149 +64,137 @@ interests:
   - Joint Modelling
   - Heart Failure
 
-# Education to show in About widget
 education:
-  courses:
-  - course: PhD in Public Health
+  - area: PhD in Public Health
     institution: University of Glasgow
-    year: 2019 - 2024
-  - course: MSc in Software Engineering
+    date_start: 2019-10-01
+    date_end: 2024-06-27
+    summary: |
+      Thesis titled: Potential of joint modelling of longitudinal observations and time-to-event data to improve prognosis in chronic heart failure studies. Supervised by Prof. J Lewsey and Prof. P Jhund.
+    button:
+      text: 'Read Thesis'
+      url: 'https://theses.gla.ac.uk/84042/'
+  - area: MSc in Software Engineering
     institution: University of Hertfordshire
-    year: 2016
-  - course: BSc in Computer Science
+    date_start: 2016-10-01
+    date_end: 2017-10-19
+    summary: |
+      Distinction
+  - area: BSc (Hons) Computer Science
     institution: University of Hertfordshire
-    year: 2011
+    date_start: 2008-09-01
+    date_end: 2011-07-27
+    summary: |
+      2:1
+work:
+  - position: Research Software Engineer
+    company_name: University of Glasgow
+    company_url: 'https://www.gla.ac.uk'
+    company_logo: 'org-uofg'
+    date_start: 2024-11-01
+    date_end: ''
+    summary: |2-
+      * Working as part of Research Software Engineering Team
+      * Developing FAIR and open source software
+      * Working using agile software engineering techniques
+  - position: Research Associate
+    company_name: University of Glasgow
+    company_url: 'https://www.gla.ac.uk'
+    company_logo: 'org-uofg'
+    date_start: 2023-03-05
+    date_end: 2024-10-31
+    summary: |2-
+      * Working on Large NIHR funded projects, to aid in evidence synthesis.
+      * Development of web applications using R Shiny to aid in advance evidence synthesis techniques.
+      * Working as part of a team, collaborating through multiple channels including GitHub / Jira
+  - position: Technician
+    company_name: University of Glasgow
+    company_url: 'https://www.gla.ac.uk'
+    company_logo: 'org-uofg'
+    date_start: 2023-03-05
+    date_end: 2024-10-31
+    summary: |2-
+      * Working on an STFC funded grant to deliver a Findable Accessible Interoperable Reusable (FAIR) Data Pipeline
+      * Producing opensource APIs in multiple programming languages (C++, Python, R, Julia, Java)
+      * Working as part of a team collaborating using source control i.e., GIT and GitHub
+
 
 # Skills
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: 
+  - name: Programming Languages
     items:
       - name: Data Science
         description: 'Expert'
         percent: 100
-        icon: ds
-        icon_pack: custom
+        icon: custom/ds
       - name: Statistics
         description: 'Proficient'
         percent: 80
-        icon: chart-line
-        icon_pack: fas
+        icon: custom/chart-line
       - name: Software Engineering
         description: 'Expert'
         percent: 100
-        icon: laptop-code
-        icon_pack: fas
+        icon: custom/laptop-code
       - name: Machine Learning and AI
         description: 'Proficient'
         percent: 80
-        icon: robot
-        icon_pack: fas
+        icon: custom/robot
       - name: R
         description: 'Expert'
         percent: 100
-        icon: r-project
-        icon_pack: fab
+        icon: devicon/r
       - name: R Shiny
         description: 'Expert'
         percent: 100
-        icon: shiny
-        icon_pack: custom
+        icon: custom/shiny
   - name: 
     items:
       - name: Python
         description: 'Expert'
         percent: 100
-        icon: python
-        icon_pack: fab
+        icon: devicon/python
       - name: C++
         description: 'Expert'
         percent: 100
-        icon: cpp
-        icon_pack: custom
+        icon: devicon/cplusplus
       - name: Java
         description: 'Expert'
         percent: 100
-        icon: java
-        icon_pack: fab
+        icon: devicon/java
       - name: Julia
         description: 'Proficient'
         percent: 80
-        icon: julia
-        icon_pack: custom
+        icon: devicon/julia
       - name: PHP
         description: 'Expert'
         percent: 100
-        icon: php
-        icon_pack: fab
+        icon: devicon/php
       - name: SQL
         description: 'Proficient'
         percent: 80
-        icon: database
-        icon_pack: fas
-  # - name: Hobbies
-  #   color: '#eeac02'
-  #   color_border: '#f0bf23'
-  #   items:
-  #     - name: Hiking
-  #       description: ''
-  #       percent: 60
-  #       icon: person-hiking
-  #       icon_pack: fas
-  #     - name: Cats
-  #       description: ''
-  #       percent: 100
-  #       icon: cat
-  #       icon_pack: fas
-  #     - name: Photography
-  #       description: ''
-  #       percent: 80
-  #       icon: camera-retro
-  #       icon_pack: fas
+        icon: devicon/sql
 
-# Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
-social:
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
-  - icon: x-twitter
-    icon_pack: fab
-    link: https://twitter.com/Ryan_J_Field
-    label: Follow me on Twitter
-    #display:
-    #  header: true
-  - icon: bluesky
-    icon_pack: fab
-    link: https://bsky.app/profile/ryanfield.me
-    label: Follow me on Bluesky
-    display:
-      header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://www.gla.ac.uk/stafflist/search/person/4edeece28292/
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/RyanJField
-  - icon: linkedin
-    icon_pack: fab
-    link: https://www.linkedin.com/in/ryan-field
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/0000-0002-4424-9890
-  # Link to a PDF of your resume/CV.
-  # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
-  # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+languages:
+  - name: English
+    percent: 100
+  - name: Chinese
+    percent: 75
+  - name: Portuguese
+    percent: 25
 
-# Highlight the author in author lists? (true/false)
-highlight_name: true
+# Awards.
+#   Add/remove as many awards below as you like.
+#   Only `title`, `awarder`, and `date` are required.
+#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+awards:
+  - title: University Prize - Outstanding Perfomance
+    url: ''
+    date: '2017-10-19'
+    awarder: University of Hertfordshire
+    icon: org-uh
+    summary: ''
 ---
-
 A research software engineer at the University of Glasgow, with a background in computer science, software engineering and
 public health, and a focus on FAIR and reproducible data. With interests in research software, data analysis, evidence synthesis, web
 application development and statistical analysis.
