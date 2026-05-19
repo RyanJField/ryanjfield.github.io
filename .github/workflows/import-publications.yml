@@ -28,20 +28,20 @@ jobs:
 
     env:
       ACADEMIC_VERSION: '>=0.10.0'
-      PYTHON_VERSION: '3.12'
+      PYTHON_VERSION: '3.13'
     steps:
       - name: Checkout the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Only need recent history for publication import
           fetch-depth: 1
 
       - name: Set up Python 3.13
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.12'
+          python-version: '3.13'
       - name: Setup pip cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-academic-${{ env.ACADEMIC_VERSION }}
@@ -68,12 +68,12 @@ jobs:
         if: ${{ hashFiles('publications.bib') != '' }}
         run: |
           echo "🚀 Starting publication import..."
-          academic import publications.bib content/publication/ --compact --verbose
+          academic import publications.bib content/publications/ --compact --verbose
           echo "✅ Publication import completed successfully"
-          
+
           # Verify that files were created
-          if [ -d "content/publication" ] && [ "$(ls -A content/publication/)" ]; then
-            echo "📚 Publications imported: $(ls content/publication/ | wc -l) items"
+          if [ -d "content/publications" ] && [ "$(ls -A content/publications/)" ]; then
+            echo "📚 Publications imported: $(ls content/publications/ | wc -l) items"
           else
             echo "⚠️ No publications were imported"
           fi
@@ -81,26 +81,26 @@ jobs:
       - name: Create Pull Request
         # Set ID for `Check outputs` stage
         id: cpr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           commit-message: 'feat(publications): import latest publications from bibtex'
-          title: 'Hugo Blox Builder - Import latest publications from Bibtex'
+          title: 'HugoBlox Kit - Import latest publications from Bibtex'
           body: |
             🔄 **Automated Publication Import**
 
-            This PR automatically imports the latest publications from `publications.bib` to `content/publication/`.
+            This PR automatically imports the latest publications from `publications.bib` to `content/publications/`.
 
             **Changes:**
             - 📚 Updated publication entries
             - 🏷️ Processed bibliographic data
 
             ---
-            将最新的出版物从`publications.bib`导入到`content/publication/`。
+            将最新的出版物从`publications.bib`导入到`content/publications/`。
 
             📖 [View Documentation](https://github.com/GetRD/academic-file-converter)
           base: main
           labels: automated-pr, content, publications
-          branch: hugoblox-import-publications
+          branch: hugoblox-import-publications-${{ github.run_id }}
           delete-branch: true
           draft: false
       - name: Check outputs
