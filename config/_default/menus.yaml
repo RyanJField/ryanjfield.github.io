@@ -5,7 +5,7 @@
 
 main:
   - name: Home
-    url: '#about'
+    url: '/#'
     weight: 10
   #- name: Posts
   #  url: '#posts'
@@ -14,20 +14,20 @@ main:
   #  url: '#projects'
   #  weight: 30
   - name: Skills
-    url: '#section-skills'
+    url: '/#section-resume-skills'
     weight: 20
   - name: Research Experience
-    url: '#section-resume-experience'
+    url: '/#section-resume-experience'
     weight: 30
   - name: Talks
-    url: '#talks'
+    url: '/#talks'
     weight: 40
   - name: Publications
-    url: '#papers'
+    url: '/#papers'
     weight: 50
   - name: Software
-    url: '#software'
+    url: '/#software'
     weight: 60
   - name: Contact
-    url: '#contact'
+    url: '/#section-contact-info'
     weight: 70

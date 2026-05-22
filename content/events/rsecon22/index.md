@@ -27,7 +27,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: 2022-08-22T17:20:39+01:00
 
-authors: [admin]
+authors: [me]
 tags: [Software Engineering, FAIR Data, Provenance]
 
 # Is this a featured talk? (true/false)

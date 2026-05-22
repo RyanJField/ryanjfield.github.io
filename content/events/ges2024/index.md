@@ -23,7 +23,7 @@ all_day: false
 # Schedule page publish date (NOT talk date).
 publishDate: 2024-09-06T16:30:00+01:00
 
-authors: [admin]
+authors: [me]
 tags: [Evidence Synthesis, Software Engineering, Diagnostic Test Accuracy, R Shiny]
 
 # Is this a featured talk? (true/false)
