@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "RSECON22 Walktrhough: A FAIR Data Pipeline: provenance-driven data management for traceable scientific workflows"
+title: "RSECON22 Walkthrough: A FAIR Data Pipeline: provenance-driven data management for traceable scientific workflows"
 event: "RSECON22"
 event_url: "https://virtual.oxfordabstracts.com/#/event/3101/submission/113"
 location:
