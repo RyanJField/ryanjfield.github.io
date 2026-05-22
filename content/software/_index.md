@@ -1,15 +1,12 @@
 ---
-title: Recent Software
+title: Software
 cms_exclude: true
 
 # View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-view: 4
+view: citation
 
 # Optional header image (relative to `static/media/` folder).
-header:
+banner:
   caption: ''
   image: ''
 ---

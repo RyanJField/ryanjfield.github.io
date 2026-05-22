@@ -1,0 +1,181 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Ryan J Field
+  given: Ryan
+  family: Field
+  alternate: ''  # Example: 王伟
+  pronunciation: ''  # Example: Wáng Wěi
+  pronouns: he/him
+postnominals:
+  - BSc(Hons)
+  - MSc
+  - PhD
+  - MBCS
+status:
+  icon: "💻"
+role: Research Software Engineer
+bio: |
+  A research software engineer at the University of Glasgow, with a 
+  background in computer science, software engineering and
+  public health, and a focus on FAIR and reproducible data.
+  With interests in research software, data analysis,
+  evidence synthesis, Artificial Intelligence, Large Language Models, web application development and
+  statistical analysis.
+
+affiliations:
+  - name: University of Glasgow
+    url: https://www.gla.ac.uk/stafflist/search/person/4edeece28292/
+
+links:
+  - icon: at-symbol
+    url: mailto:ryan.field@glasgow.ac.uk
+    label: E-mail Me
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/ryanfield.me
+  - icon: brands/github
+    url: https://github.com/RyanJField
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/ryan-field
+  #- icon: custom/uofg-24
+  #  url: https://www.gla.ac.uk/stafflist/search/person/4edeece28292/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=1hOmyCAAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-4424-9890
+
+interests:
+  - Evidence Synthesis
+  - Software Engineering
+  - R Shiny
+  - Health Economics / HTA
+  - Machine Learning / AI
+  - LLMs
+  - Big Data
+  - Joint Modelling
+  - Heart Failure
+  - Large Language Models
+  - AI Ethics
+
+education:
+  - degree: PhD in Public Health
+    institution: University of Glasgow
+    date_start: 2019-10-01
+    date_end: 2024-06-27
+    summary: |
+      Thesis titled: Potential of joint modelling of longitudinal observations and time-to-event data to improve prognosis in chronic heart failure studies. Supervised by Prof. J Lewsey and Prof. P Jhund.
+    button:
+      text: 'Read Thesis'
+      url: 'https://theses.gla.ac.uk/84042/'
+      icon: hero/arrow-down-tray
+  - degree: MSc in Software Engineering
+    institution: University of Hertfordshire
+    date_start: 2016-10-01
+    date_end: 2017-10-19
+    summary: |
+      Distinction
+  - degree: BSc (Hons) Computer Science
+    institution: University of Hertfordshire
+    date_start: 2008-09-01
+    date_end: 2011-07-27
+    summary: |
+      2:1
+
+experience:
+  - role: Research Software Engineer
+    org: University of Glasgow
+    start: 2024-11-01
+    summary: |
+      * Working as part of Research Software Engineering Team
+      * Developing FAIR and open source software
+      * Working using agile software engineering techniques
+    button:
+      text: View profile
+      url: https://www.gla.ac.uk/stafflist/search/person/4edeece28292/
+      icon: custom/uofg-24
+  - role: Research Associate
+    org: University of Glasgow
+    start: 2023-03-05
+    end: 2024-10-31
+    summary: |
+      * Working on Large NIHR funded projects, to aid in evidence synthesis.
+      * Development of web applications using R Shiny to aid in advance evidence synthesis techniques.
+      * Working as part of a team, collaborating through multiple channels including GitHub / Jira
+  - role: Technician
+    org: University of Glasgow
+    start: 2021-11-01
+    end: 2022-12-31
+    summary: |
+      * Working on an STFC funded grant to deliver a Findable Accessible Interoperable Reusable (FAIR) Data Pipeline
+      * Producing opensource APIs in multiple programming languages (C++, Python, R, Julia, Java)
+      * Working as part of a team collaborating using source control i.e., GIT and GitHub
+
+skills:
+  - name: Programming Languages
+    items:
+      - name: Data Science
+        description: 'Expert'
+        level: 0
+        icon: hero/beaker
+      - name: Statistics
+        description: 'Proficient'
+        level: 0
+        icon: hero/chart-bar-square
+      - name: Software Engineering
+        description: 'Expert'
+        level: 0
+        icon: hero/command-line
+      - name: Machine Learning and AI
+        description: 'Proficient'
+        level: 0
+        icon: custom/robot
+      - name: R
+        description: 'Expert'
+        level: 0
+        icon: devicon/r
+      - name: R Shiny
+        description: 'Expert'
+        level: 0
+        icon: custom/shiny
+  - name: ​
+    items:
+      - name: Python
+        description: 'Expert'
+        level: 0
+        icon: devicon/python
+      - name: C++
+        description: 'Expert'
+        level: 0
+        icon: devicon/cplusplus
+      - name: Java
+        description: 'Expert'
+        level: 0
+        icon: devicon/java
+      - name: Julia
+        description: 'Proficient'
+        level: 0
+        icon: devicon/julia
+      - name: PHP
+        description: 'Expert'
+        level: 0
+        icon: devicon/php
+      - name: SQL
+        description: 'Proficient'
+        level: 0
+        icon: devicon/azuresqldatabase
+
+languages:
+  - name: English
+    level: 5
+    label: Native
+  - name: Spanish
+    level: 4
+    label: Fluent
+
+awards:
+  - title: University Prize - Outstanding Performance
+    awarder: University of Hertfordshire
+    date: "2017-10-19"
+    summary: Awarded for outstanding performance during my MSc studies.
+    icon: hero/trophy
